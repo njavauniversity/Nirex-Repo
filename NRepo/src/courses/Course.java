@@ -1,6 +1,7 @@
 package courses;
 
 public class Course {
+
     public Course(String cName, int unit) {
         name = cName;
         unitCount = unit;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Student {
+
     public Student(String fName, String lName) {
         courses = new ArrayList<>();
         grades = new HashMap<>();

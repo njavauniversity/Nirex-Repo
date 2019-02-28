@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Entry {
+
     public static void main(String[] args) {
 
         // List of all the courses we might use!
