@@ -1,7 +1,5 @@
 package crudtest;
 
-import java.sql.SQLException;
-
 public class Test {
     public static void main(String[] args) throws Exception {
         Student std0 = new Student(1,"Aryan","Mousavi","Tehran");
