@@ -56,8 +56,6 @@ public class Student {
         con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "nirex", "nirex");
     }
 
-//create table Student(SID int, FirstName varchar(255), LastName varchar(255), City varchar(255));
-
     public void Insert() throws SQLException {
         statement = con.prepareStatement("insert into Student values(?,?,?,?)");
         statement.setInt(1, sID);
